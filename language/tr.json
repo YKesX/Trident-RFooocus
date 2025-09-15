@@ -1,0 +1,87 @@
+{
+  "Main": "Ana Sayfa",
+  "Image browser": "Görsel Tarayıcı",
+  "Chat bots": "Sohbet Botları",
+  "Settings": "Ayarlar",
+
+  "Generate": "Üret",
+  "Stop": "Durdur",
+  "Type prompt here.": "Promtu buraya yazın.",
+  "Image Number": "Görüntü Sayısı",
+  "Auto Negative Prompt": "Otomatik Negatif Prompt",
+  "Negative Prompt": "Negatif Prompt",
+  "Random Seed": "Rastgele Seed",
+  "Seed": "Seed",
+  "Performance": "Performans",
+  "Custom Steps": "Özel Adımlar",
+  "Clip Skip": "Clip Skip",
+  "Sampler": "Sampler",
+  "Scheduler": "Scheduler",
+  "Style Selection": "Stil Seçimi",
+  "Send Style to prompt": "Stili prompta gönder",
+  "Width": "Genişlik",
+  "Height": "Yükseklik",
+  "Aspect Ratios (width x height)": "En-Boy Oranları (genişlik x yükseklik)",
+  "Save": "Kaydet",
+  "Name": "Ad",
+  "Optional": "İsteğe bağlı",
+  "Preset:": "Ön Ayar:",
+  "Model": "Model",
+  "Models": "Modeller",
+  "Model name": "Model adı",
+  "Model type": "Model türü",
+  "LoRA Trigger Words": "LoRA Tetik Kelimeleri",
+  "Search LoRA": "LoRA Ara",
+  "Weight": "Ağırlık",
+  "Images": "Görseller",
+  "Page": "Sayfa",
+  "Update DB": "Veritabanını Güncelle",
+  "Image Metadata": "Görsel Metaverisi",
+  "Search Metadata": "Metaveri Ara",
+  "Search": "Ara",
+  "OBP Preset": "OBP Ön Ayarı",
+  "Hint Chance": "İpucu Şansı",
+  "Archive Folders": "Arşiv Klasörleri",
+  "Checkpoint Folders": "Kontrol Noktası Klasörleri",
+  "LoRA Folders": "LoRA Klasörleri",
+  "Inbox Folder": "Gelen Klasörü",
+  "Output Folder": "Çıkış Klasörü",
+  "Resolution": "Çözünürlük",
+  "Prompt": "Prompt",
+  "Enable image generation": "Görüntü üretimini etkinleştir",
+  "Theme": "Tema",
+  "Info": "Bilgi",
+  "Setting": "Ayar",
+  "Saved new settings to {path}.": "Yeni ayarlar {path} konumuna kaydedildi.",
+  "Refresh All Files": "Tüm Dosyaları Yenile",
+  "Name(.merge)": "Ad(.merge)",
+  "Saved": "Kaydedildi",
+  "Save Metadata": "Metaveriyi Kaydet",
+  "Images per page": "Sayfa başına görsel"
+  ,"Cancel": "İptal"
+  ,"One Button": "Tek Tuş"
+  ,"Instant OBP": "Anında OBP"
+  ,"Random Prompt": "Rastgele Prompt"
+  ,"BYPASS SAFETY PROTOCOLS": "GÜVENLİK PROTOKOLLERİNİ ATLAMA"
+  ,"One Button Preset": "Tek Tuş Ön Ayarı"
+  ,"Name of new preset": "Yeni ön ayar adı"
+  ,"Save as preset": "Ön ayar olarak kaydet"
+  ,"Higher levels increases complexity and randomness of generated prompt": "Daha yüksek seviyeler oluşturulan promptun karmaşıklığını ve rastgeleliğini artırır"
+  ,"Subject Types": "Konu Türleri"
+  ,"Artists": "Sanatçılar"
+  ,"Type of object": "Nesne türü"
+  ,"Type of humanoids": "Humanoid türü"
+  ,"Type of concept": "Kavram türü"
+  ,"Gender": "Cinsiyet"
+  ,"type of image": "Görüntü türü"
+  ,"One in X chance to use special image type mode": "Özel görüntü türü modunu kullanma olasılığı (1/X)"
+  ,"Overwrite subject": "Konuyu geçersiz kıl"
+  ,"Smart subject": "Akıllı konu"
+  ,"Overwrite outfit": "Kıyafeti geçersiz kıl"
+  ,"Place this in front of generated prompt (prefix)": "Oluşturulan promptun başına ekle (önek)"
+  ,"Place this at back of generated prompt (suffix)": "Oluşturulan promptun sonuna ekle (sonek)"
+  ,"Overwrite type of image": "Görüntü türünü geçersiz kıl"
+  ,"Filter out following properties (comma seperated). Example": "Aşağıdaki özellikleri filtrele (virgülle ayrılmış). Örnek"
+  ,"HYPERPROMPTING": "HYPERPROMPTING"
+  
+}

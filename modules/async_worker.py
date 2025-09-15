@@ -273,7 +273,7 @@ def _process(gen_data):
                 "start_step": start_step,
                 "denoise": denoise,
                 "clip_skip": gen_data["clip_skip"],
-                "software": "RuinedFooocus",
+                "software": "Trident-RFoocus",
             }
             metadata = PngInfo()
             # if True:

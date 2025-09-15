@@ -1,4 +1,18 @@
 css = """
+:root {
+  --accent-start: #00DFFF;
+  --accent-end: #00BFFF;
+}
+
+.gradio-container button, .gradio-container .btn, button, .btn-primary {
+  background: linear-gradient(90deg, var(--accent-start), var(--accent-end)) !important;
+  border: none !important;
+}
+
+.gradio-container .tabs .tabitem.selected, .gradio-container .tab-nav .tab-nav-item.selected {
+  border-bottom: 2px solid var(--accent-end) !important;
+}
+
 .loader-container {
   display: flex; /* Use flex to align items horizontally */
   align-items: center; /* Center items vertically within the container */
@@ -25,11 +39,11 @@ progress {
 
 /* Set the color of the progress bar fill */
 progress::-webkit-progress-value {
-  background-color: #3498db; /* Blue color for the fill */
+  background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
 }
 
 progress::-moz-progress-bar {
-  background-color: #3498db; /* Blue color for the fill in Firefox */
+  background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
 }
 
 /* Style the text on the progress bar */

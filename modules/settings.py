@@ -7,14 +7,24 @@ import shared
 class SettingsManager:
     DEFAULT_SETTINGS = {
         "advanced_mode": False,
-        "image_number": 1,
-        "seed_random": True,
-        "seed": 0,
+    "image_number": 1,
+    "seed_random": False,
+    "seed": 18,
         "style": ["Style: sai-cinematic"],
-        "prompt": "",
-        "negative_prompt": "",
-        "performance": "Speed",
-        "resolution": "1152x896 (4:3)",
+    "prompt": """
+EO/RGB fire-control guncam POV, extreme long shot, 95–99% empty pale/cloudy sky background,
+((no horizon)), ((no ground)), ((no landscape)), ((no buildings)), ((no labels)), ((no text)),
+one tiny quadcopter drone ≈ 0.5% of frame (about 10-13 px wide at 1344×768), centered,
+muted military colors, low contrast, mild 8-bit compression grain, subtle heat shimmer,
+slight micro-jitter, deep focus, 400–600mm telephoto compression, daytime documentary realism, SDXL, ((((sky background only))))
+""",
+    "negative_prompt": """
+ground, horizon, trees, field, runway, skyline, city, cockpit, airplane, manned aircraft,
+close-up drone, macro, product shot, studio lighting, glossy render, blueprint, schematic, exploded view,
+labels, text, typography, watermark, logo, cinematic color grading, teal and orange, lens flare, bokeh, anime, cgi
+""",
+    "performance": "Speed",
+    "resolution": "1344x768 (16:9)",
         "base_model": "sd_xl_base_1.0_0.9vae.safetensors",
         "lora_1_model": "None",
         "lora_1_weight": 0.5,

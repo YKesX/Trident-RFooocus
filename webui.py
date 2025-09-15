@@ -122,7 +122,7 @@ def launch_app(args):
         [shared.gradio_root, app_image_browser, app_llama_chat, app_settings],
         [t("Main"), t("Image browser"), t("Chat bots"), t("Settings")],
         theme=theme,
-        title="RuinedFooocus " + version.version,
+        title="Trident-RFoocus " + version.version,
         css=modules.html.css,
         js=modules.html.scripts,
         analytics_enabled=False,
@@ -247,7 +247,7 @@ def generate_clicked(*args):
             params = info.get("parameters", "")
             preset_data = json.loads(params)
 
-            if preset_data["software"] == "RuinedFooocus":
+            if preset_data.get("software") in ("RuinedFooocus", "Trident-RFoocus"):
                 gen_data["steps"] = preset_data["steps"]
                 gen_data["width"] = preset_data["width"]
                 gen_data["height"] = preset_data["height"]
@@ -817,7 +817,7 @@ with shared.gradio_root as block:
                             ),
                         )
                         lora_cancel_btn = gr.Button(
-                            value="cancel",
+                            value=t("Cancel"),
                             scale=1,
                         )
 
@@ -1134,7 +1134,7 @@ with shared.gradio_root as block:
                     gr.HTML(
                         value="""
                         <a href="https://discord.gg/CvpAFya9Rr"><img src="gradio_api/file=html/icon_clyde_white_RGB.svg" height="16" width="16" style="display:inline-block;">&nbsp;Discord</a><br>
-                        <a href="https://github.com/runew0lf/RuinedFooocus"><img src="gradio_api/file=html/github-mark-white.svg" height="16" width="16" style="display:inline-block;">&nbsp;Github</a><br>
+                        <a href="https://github.com/YKesX/Trident-RFooocus"><img src="gradio_api/file=html/github-mark-white.svg" height="16" width="16" style="display:inline-block;">&nbsp;Github</a><br>
                         <a href="gradio_api/file/html/last_image.html" style="color: gray; text-decoration: none" target="_blank">&pi;</a>
                         """,
                     )
